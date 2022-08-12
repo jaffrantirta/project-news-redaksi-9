@@ -25,17 +25,17 @@ $config['modules_locations'] = array(
 | a PHP script and you can easily do that on your own.
 |
 */
-// $http = 'http' . ((isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == 'on') ? 's' : '') . '://';
-// $iswww=explode(".",$_SERVER['HTTP_HOST']); 
+$http = 'http' . ((isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == 'on') ? 's' : '') . '://';
+$iswww=explode(".",$_SERVER['HTTP_HOST']); 
 
-// if($iswww[0]=="www"){
-//   $protokol=$http."www.";
-// }else{
-//   $protokol=$http."";
-// }
+if($iswww[0]=="www"){
+  $protokol=$http."www.";
+}else{
+  $protokol=$http."";
+}
 
-// $config['base_url'] = $protokol.'redaksi9/';
-$config['base_url'] = 'http://localhost/redaksi9/';
+$config['base_url'] = $protokol.'redaksi9.jagoanqr.com/';
+// $config['base_url'] = 'http://localhost/redaksi9/';
 
 /*
 |--------------------------------------------------------------------------

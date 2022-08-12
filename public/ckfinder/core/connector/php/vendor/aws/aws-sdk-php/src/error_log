@@ -1,0 +1,2 @@
+[18-May-2021 11:42:19 UTC] PHP Fatal error:  Trait 'Aws\HasDataTrait' not found in /home/redaksic/public_html/public/ckfinder/core/connector/php/vendor/aws/aws-sdk-php/src/Command.php on line 9
+[18-May-2021 11:42:44 UTC] PHP Fatal error:  Trait 'Aws\AwsClientTrait' not found in /home/redaksic/public_html/public/ckfinder/core/connector/php/vendor/aws/aws-sdk-php/src/AwsClient.php on line 15

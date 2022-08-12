@@ -1,0 +1,1 @@
+[18-May-2021 11:42:59 UTC] PHP Fatal error:  Class 'Pimple\Container' not found in /home/redaksic/public_html/public/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/CKFinder.php on line 64
